@@ -1,0 +1,25 @@
+<div class="add-welding" [formGroup]="welding">
+    <div class="add-welding-form">
+      <p class="add-welding-form__header">Добавить сотрудника</p>
+      <div class="add-welding-form__id-field">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="ID" formControlName="id">
+        </mat-form-field>
+      </div>
+      <div class="add-welding-form__name-field">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Имя" formControlName="name">
+        </mat-form-field>
+      </div>
+      <div class="add-welding-form__progress-field">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Прогресс" formControlName="progress">
+        </mat-form-field>
+      </div>
+      <div class="add-welding-form__button">
+        <button mat-raised-button
+                (click)="addWelding()"
+                color="primary">Добавить</button>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,26 @@
+<div class="add-user" [formGroup]="user">
+    <div class="add-user-form">
+      <p class="add-user-form__header">Добавить сотрудника</p>
+      <div class="add-user-form__id-field">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="ID" formControlName="id">
+        </mat-form-field>
+      </div>
+      <div class="add-user-form__name-field">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Имя" formControlName="name">
+        </mat-form-field>
+      </div>
+      <div class="add-user-form__progress-field">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Прогресс" formControlName="progress">
+        </mat-form-field>
+      </div>
+      <div class="add-user-form__button">
+        <button mat-raised-button
+                (click)="addUser()"
+                color="primary">Добавить</button>
+      </div>
+    </div>
+  </div>
+  

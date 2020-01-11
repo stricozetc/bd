@@ -1,0 +1,16 @@
+.add-welding {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-form {
+    &__header {
+      text-align: center;
+    }
+
+    &__button {
+      text-align: center;
+    }
+  }
+}

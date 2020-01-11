@@ -26,6 +26,5 @@ export class LoginComponent {
 
   public login(): void {
     this.router.navigate(['/main']);
-    console.log(1);
   }
 }
